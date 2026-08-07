@@ -1,0 +1,73 @@
+{
+  "model_type": "simultaneous_BKM10_H_dominance_CFF_DNN",
+  "central_seed": 23,
+  "seeds": [
+    11,
+    23,
+    47
+  ],
+  "input_rows": 6824,
+  "input_sets": 369,
+  "interpolation_selected_sets": 166,
+  "extraction_selected_sets": 155,
+  "extraction_selected_rows": 3363,
+  "domain_definition": {
+    "min_common_points": 12,
+    "max_surrogate_chi2_each_observable": 2.0,
+    "max_circular_phi_gap_deg": 90.0,
+    "requires_both_phi_signs": true,
+    "max_local_H_dominance_BKM_chi2": 2.0,
+    "max_local_H2_jacobian_condition": 10.0
+  },
+  "parameterization": "ReH and ImH free; ReE, ImE, ReHt, ImHt, ReEt, ImEt fixed to zero",
+  "bkm_kinematics": "Ktilde/K definition from BHDVCS_tf_modified.SetKinematics",
+  "point_mean_chi2": 0.359255182413001,
+  "point_xsec_chi2": 0.45837116025265523,
+  "point_diff_chi2": 0.2601392045733467,
+  "mean_set_joint_chi2": 0.37918033618825375,
+  "max_set_joint_chi2": 1.9904392548723586,
+  "median_ReH_algorithmic_std": 0.05044804513454437,
+  "mean_ReH_algorithmic_std": 0.08248956501483917,
+  "max_ReH_algorithmic_std": 0.7614791989326477,
+  "median_ImH_algorithmic_std": 0.03235727548599243,
+  "mean_ImH_algorithmic_std": 0.04907207936048508,
+  "max_ImH_algorithmic_std": 0.3807450830936432,
+  "BKM_polynomial_max_abs_error_xsec": 1.9806378759312793e-13,
+  "BKM_polynomial_max_abs_error_diff": 3.59989815734707e-14,
+  "seed_metrics": [
+    {
+      "seed": 11,
+      "balanced_loss": 0.531079888343811,
+      "balanced_xsec_loss": 0.6013514995574951,
+      "balanced_diff_loss": 0.46080833673477173,
+      "point_mean_chi2": 0.3596442639827728,
+      "point_xsec_chi2": 0.46027758717536926,
+      "point_diff_chi2": 0.259010910987854
+    },
+    {
+      "seed": 23,
+      "balanced_loss": 0.5306228399276733,
+      "balanced_xsec_loss": 0.600389838218689,
+      "balanced_diff_loss": 0.46085578203201294,
+      "point_mean_chi2": 0.35925519466400146,
+      "point_xsec_chi2": 0.4583710730075836,
+      "point_diff_chi2": 0.26013919711112976
+    },
+    {
+      "seed": 47,
+      "balanced_loss": 0.532275378704071,
+      "balanced_xsec_loss": 0.6029582619667053,
+      "balanced_diff_loss": 0.46159249544143677,
+      "point_mean_chi2": 0.3609480857849121,
+      "point_xsec_chi2": 0.4621146023273468,
+      "point_diff_chi2": 0.25978153944015503
+    }
+  ],
+  "identifiability_condition_medians": {
+    "H2": 1.9835660924774987,
+    "H_plus_E4": 583.6913826410823,
+    "H_plus_E_plus_Htilde6": 23726.27088782998,
+    "H_plus_Htilde4": 112.58262087591093
+  },
+  "uncertainty_status": "algorithmic seed spread only; matched surrogate replicas are still required for experimental CFF errors"
+}
