@@ -1,0 +1,14 @@
+{
+  "n_points": 6824,
+  "n_sets": 369,
+  "chi2_per_point": 1.5533356007224848,
+  "pull_rms": 1.2463288493501563,
+  "pull_mean": -0.10431042951066508,
+  "pull_std": 1.241956092226205,
+  "median_abs_pull": 0.7298733881019386,
+  "frac_abs_pull_lt_1": 0.6311547479484173,
+  "frac_abs_pull_lt_2": 0.908704572098476,
+  "frac_abs_pull_lt_3": 0.9784583821805393,
+  "max_abs_pull": 12.882745936868345,
+  "note": "Reconstructed from the common prediction table using the included xsec checkpoint; the original self-contained xsec HTML was omitted from the bundle to keep it compact."
+}

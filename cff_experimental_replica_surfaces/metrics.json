@@ -1,0 +1,38 @@
+{
+  "model_type": "matched_observable_replica_to_CFF_surface_ensemble",
+  "n_replicas": 50,
+  "interpolation_sets": 166,
+  "interpolation_rows": 3597,
+  "extraction_sets": 155,
+  "extraction_rows": 3363,
+  "sampling": {
+    "xsec": "Gaussian with rejection of nonpositive values",
+    "xsec_diff": "signed Gaussian",
+    "xsec_diff_row_correlation": 0.0,
+    "covariance_note": "No experimental cross-observable or bin-to-bin covariance matrix was provided; default replicas are row-wise independent."
+  },
+  "median_replica_xsec_point_chi2": 2.0032970905303955,
+  "median_replica_diff_point_chi2": 1.8094908595085144,
+  "median_replica_cff_point_joint_chi2": 0.3802247941493988,
+  "median_center_ReH_std": 0.12264993786811829,
+  "median_center_ImH_std": 0.10911458730697632,
+  "median_center_ReH_68_half_width": 0.12016186118125916,
+  "median_center_ImH_68_half_width": 0.09338116645812988,
+  "median_center_ReH_ImH_correlation": 0.3533617847392349,
+  "split_half_median_relative_68_width_difference_ReH": 0.1664724051952362,
+  "split_half_median_relative_68_width_difference_ImH": 0.1839703917503357,
+  "support_definition": {
+    "neighbors": 5,
+    "reference_quantile": 0.8,
+    "scale": 1.0,
+    "threshold_standardized_feature_distance": 0.7335857493418075
+  },
+  "null_replica_calibration": {
+    "null_xsec_median_shift_in_error_units": 0.06712398495030483,
+    "null_diff_median_shift_in_error_units": 0.10294348333031332,
+    "null_cff_center_ReH_rms_shift": 0.029950987547636032,
+    "null_cff_center_ImH_rms_shift": 0.022566264495253563
+  },
+  "uncertainty_scope": "experimental replica component only; deterministic warm-start drift is null-calibrated; algorithmic and methodological components remain separate",
+  "elapsed_sec": 494.4346373081207
+}

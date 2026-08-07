@@ -1,0 +1,61 @@
+{
+  "input_file": "/mnt/data/data(20260807-003945).csv",
+  "input_rows": 7055,
+  "input_sets": 378,
+  "clean_rows": 6824,
+  "clean_sets": 369,
+  "excluded_rows": 231,
+  "sets_removed_entirely": [
+    19,
+    20,
+    21,
+    22,
+    133,
+    134,
+    135,
+    136,
+    137
+  ],
+  "max_systematic_ratio": 20.0,
+  "max_local_xsec_pull": 10.0,
+  "max_local_xsec_ratio": 3.0,
+  "max_local_diff_pull": 8.0,
+  "phi_conversion": "phi=deg2rad(((phi_deg+180)%360)-180); symmetry center is 0 deg",
+  "total_error_definition": "sqrt(stat^2 + max(abs(sys_plus),abs(sys_minus))^2)",
+  "flag_counts": {
+    "flag_bad_kinematics": 0,
+    "flag_xsec_nonpositive_or_missing": 123,
+    "flag_xsec_error_nonpositive_or_missing": 120,
+    "flag_xsec_systematic_anomaly": 9,
+    "flag_xsec_diff_missing": 0,
+    "flag_xsec_diff_error_nonpositive_or_missing": 90,
+    "flag_xsec_diff_systematic_anomaly": 10,
+    "flag_exact_duplicate": 1,
+    "flag_local_xsec_catastrophic_outlier": 2,
+    "flag_local_xsec_diff_catastrophic_outlier": 1
+  },
+  "informational_flag_counts": {
+    "flag_xsec_systematic_missing": 0,
+    "flag_xsec_diff_systematic_missing": 1
+  },
+  "clean_rows_by_experiment": {
+    "E00-110 Hall A": 468,
+    "E07-007 Hall A": 358,
+    "E12-06-114 Hall A": 1077,
+    "e1-DVCS1 Hall B": 1931,
+    "e1-DVCS2 Hall B": 2990
+  },
+  "clean_sets_by_experiment": {
+    "E00-110 Hall A": 20,
+    "E07-007 Hall A": 18,
+    "E12-06-114 Hall A": 45,
+    "e1-DVCS1 Hall B": 110,
+    "e1-DVCS2 Hall B": 176
+  },
+  "outputs": {
+    "clean_csv": "/mnt/data/dvcs_xsec_diff_prepared_v2/dvcs_xsec_diff_common_clean.csv",
+    "audit_csv": "/mnt/data/dvcs_xsec_diff_prepared_v2/dvcs_xsec_diff_cleaning_audit.csv",
+    "excluded_rows_csv": "/mnt/data/dvcs_xsec_diff_prepared_v2/dvcs_xsec_diff_excluded_rows.csv",
+    "summary_json": "/mnt/data/dvcs_xsec_diff_prepared_v2/dvcs_xsec_diff_cleaning_summary.json"
+  }
+}
